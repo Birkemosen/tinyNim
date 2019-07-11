@@ -1,0 +1,1 @@
+import nucleo_f446/pins
