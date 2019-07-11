@@ -1,5 +1,5 @@
 version       = "0.1.0"
-author        = "Julian Birkemose"
+author        = "Birkemosen"
 description   = "tinyNim device files"
 license       = "MIT"
 skipDirs      = @["doc"]
