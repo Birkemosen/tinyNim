@@ -1,7 +1,7 @@
 # Package
 
 version     = "0.1.0"
-author      = "Julian Birkemose"
+author      = "Birkemosen"
 description = "tinyNim - Nim on embedded devices"
 license     = "MIT"
 
