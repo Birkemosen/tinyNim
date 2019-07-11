@@ -2,9 +2,9 @@
 Nim on STM32F446 uisng nimble for building
 
 # Dependencies
-nim-configparser ``nimble install configparser``
-arm-none-eabi-gcc compile
-st-link utility (unix/linux == texane/stlink)
+- nim-configparser ``nimble install configparser``
+- arm-none-eabi-gcc compile
+- st-link utility (unix/linux == texane/stlink)
 
 # Howto
 Copy the two following folders to your ".nimble/pkgs/" directory: 
@@ -29,7 +29,7 @@ If on Linux/Unix make sure to remove .exe from arm-none-eabi-objcopy and arm-non
 ## Building the project
 You need to have arm-none-eabi-gcc installed and on your PATH.
 The nimble script defines three tasks:
-- nimble make       # Compiles both nim and .c files
-- nimble makeNim    # Compiles only the nim files
-- nimble makeC      # Compiles all the .c files
-- nimble flash      # Uploads the compilede binary to the board.
+- ``nimble make``       # Compiles both nim and .c files
+- ``nimble makeNim``   # Compiles only the nim files
+- ``nimble makeC``     # Compiles all the .c files
+- ``nimble flash``      # Uploads the compilede binary to the board.
